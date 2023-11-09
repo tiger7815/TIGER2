@@ -65,7 +65,7 @@ visionias_url_extract_pattern = r"(https://.*?playlist.m3u8.*?)\""
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
 
-    editable = await m.reply_text("**Hellow deAr,** i am here for multipurpose & in **under construction.**\n\n**Developer:** Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️ \n**Language:**🔥Python\n\n**All running commands are:-**\n\n/txt\n/adda_pdf\n/jw\n/Link\n/top\n/cw\n/pw\n\n**BOT IS IN  UNDERCONSTRUCTION.**\n")
+    editable = await m.reply_text("**Hellow deAr,** i am here for multipurpose & in **under construction.**\n\n**Developer:** TIGER ZINDA HAI \n**Language:**🔥Python\n\n**All running commands are:-**\n\n/txt\n/adda_pdf\n/jw\n/Link\n/top\n/cw\n/pw\n\n**BOT IS IN  UNDERCONSTRUCTION.**\n")
 
 
 @bot.on_message(filters.command(["cancel"]))
@@ -86,7 +86,7 @@ async def restart_handler(_, m):
 @bot.on_message(filters.command(["txt"]))
 async def account_login(bot: Client, m: Message):
 
-    editable = await m.reply_text(" **Hello DeAr,** I am Text Downloader Bot.\nI can download videos from text file one by one.\n\n**Developer:** Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️ \n**Language:**🔥Python\n\nNow Send Your **TXT File**\n")
+    editable = await m.reply_text(" **Hello DeAr,** I am Text Downloader Bot.\nI can download videos from text file one by one.\n\n**Developer:** TIGER ZINDA HAI \n**Language:**🔥Python\n\nNow Send Your **TXT File**\n")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -346,8 +346,8 @@ async def account_login(bot: Client, m: Message):
             try:
                 Show = f"**Downloading:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-**\n`{url}`\n\n**With ❤️ From Admins**"
                 prog = await m.reply_text(Show)
-                cc = f'{str(count).zfill(3)}.  {name1} {res}@Black_Universal.mp4\n\n**Batch:** {raw_text0}\n\n**Date:** {raw_text4}\n\n**Downloaded By** :- Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️'
-                cc1 = f'{str(count).zfill(3)}. {name1} {res}@Black_Universal.pdf\n\n**Batch:** {raw_text0}\n\n**Date:** {raw_text4}\n\n**Downloaded By** :- Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️'
+                cc = f'{str(count).zfill(3)}.  {name1} {res}@Black_Universal.mp4\n\n**Batch:** {raw_text0}\n\n**Date:** {raw_text4}\n\n**Downloaded By** :- TIGER'
+                cc1 = f'{str(count).zfill(3)}. {name1} {res}@Black_Universal.pdf\n\n**Batch:** {raw_text0}\n\n**Date:** {raw_text4}\n\n**Downloaded By** :- TIGER'
 #                 if cmd == "pdf" or "drive" in url:
 #                     try:
 #                         ka=await helper.download(url,name)
@@ -375,7 +375,7 @@ async def account_login(bot: Client, m: Message):
                         reply = await m.reply_text(f"Uploading - ```{name}```\n\n**With ❤️ From Admins.**")
                         time.sleep(1)
                         start_time = time.time()
-                        await m.reply_document(ka, caption=f'{str(count).zfill(3)}. {name1} {res}.pdf\n\n**Batch:** {raw_text0}\n\n**Downloaded By** :- Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️')
+                        await m.reply_document(ka, caption=f'{str(count).zfill(3)}. {name1} {res}.pdf\n\n**Batch:** {raw_text0}\n\n**Downloaded By** :- TIGER ZINDA HAI')
                         count += 1
                         # time.sleep(1)
                         await reply.delete(True)
@@ -492,7 +492,7 @@ async def account_login(bot: Client, m: Message):
             name = f'{str(count).zfill(3)}) {name1}'
             Show = f"**Downloading:-**\n\n**Name :-** `{name}`\n\n**Url :-** `{url}`\n\n**rout** :- `{rout}`"
             prog = await m.reply_text(Show)
-            cc = f'{str(count).zfill(3)}.  {name1} {res}.mp4\n\n**Batch:** {raw_text0}\n\n**Downloaded By: Respected Admins❤️**'
+            cc = f'{str(count).zfill(3)}.  {name1} {res}.mp4\n\n**Batch:** {raw_text0}\n\n**Downloaded By: TIGER❤️**'
 
             cmd = f'yt-dlp -o "{name}.mp4" --cookies {cook} "{url}"'
             try:
@@ -763,9 +763,9 @@ async def account_login(bot: Client, m: Message):
 
             prog = await m.reply_text(Show)
 
-            cc = f'**Title »** {name1}.mp4\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}\n\n**Downloaded By** :- Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️'
+            cc = f'**Title »** {name1}.mp4\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}\n\n**Downloaded By** :- TIGER ZINDA HAI'
 
-            cc1 = f'**Title »** {name1}.pdf\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}\n\n**Downloaded By** :- Bʟᴀᴄᴋ⚡Ꭺᴅᴀᴍ️'
+            cc1 = f'**Title »** {name1}.pdf\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}\n\n**Downloaded By** :- TIGER ZINDA HAI'
 
             try:
 
