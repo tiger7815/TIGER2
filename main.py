@@ -56,7 +56,7 @@ visionias_quality_dict = {
 
 visionias_url_extract_pattern = r"(https://.*?playlist.m3u8.*?)\""
 
- bot = Client(
+ bot = Client()
      "bot",
            api_id=api_id,
       api_hash=api_hash, 
